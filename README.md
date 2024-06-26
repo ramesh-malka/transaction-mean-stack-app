@@ -22,6 +22,8 @@ Run `ng serve` or `npm start` for a dev server. Navigate to `http://localhost:42
 
 Use Node 16
 
+To initialize node application, use `npm init -y`
+
 To install libraries,  use `npm install`, if you come across use `npm install --force`
 
 To run applicaion, use `node app.js`
