@@ -1,0 +1,18 @@
+<div *ngIf="transaction">
+    <h2>Transaction Details</h2>
+    <div>
+      <label>ID: </label>{{ transaction.id }}
+    </div>
+    <div>
+      <label>Date: </label>{{ transaction.date | date }}
+    </div>
+    <div>
+      <label>Amount: </label>{{ transaction.amount }} {{ transaction.currencyCd }}
+    </div>
+    <div>
+      <label>Comments: </label>
+      <input [(ngModel)]="comments" />
+    </div>
+    <button (click)="save()">Save</button>
+  </div>
+  
